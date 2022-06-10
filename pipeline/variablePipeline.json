@@ -1,0 +1,26 @@
+{
+	"name": "variablePipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "GetFilepath",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "path",
+					"value": {
+						"value": "@concat(formatDateTime(utcNow(),'yyyy'),'/',formatDateTime(utcNow(),'MM'),'/',formatDateTime(utcNow(),'dd'),'/')",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"variables": {
+			"path": {
+				"type": "String"
+			}
+		},
+		"annotations": []
+	}
+}

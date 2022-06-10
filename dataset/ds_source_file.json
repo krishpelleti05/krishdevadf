@@ -1,0 +1,19 @@
+{
+	"name": "ds_source_file",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_SourceFileLocation",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "data"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}

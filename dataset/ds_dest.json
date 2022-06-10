@@ -1,0 +1,20 @@
+{
+	"name": "ds_dest",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_dest",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "2022/06",
+				"container": "data"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
