@@ -50,7 +50,10 @@
 				"outputs": [
 					{
 						"referenceName": "ds_target",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"Filepath": "2022/06/10"
+						}
 					}
 				]
 			}
