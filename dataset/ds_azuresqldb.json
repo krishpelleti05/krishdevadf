@@ -1,0 +1,26 @@
+{
+	"name": "ds_azuresqldb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azuresqlsource",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Empid",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "EMpName",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Emp"
+		}
+	}
+}

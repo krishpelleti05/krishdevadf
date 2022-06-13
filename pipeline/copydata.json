@@ -61,6 +61,11 @@
 				]
 			}
 		],
+		"parameters": {
+			"SourceFilePath": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }
