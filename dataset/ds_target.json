@@ -22,7 +22,8 @@
 				"folderPath": {
 					"value": "@dataset().Filepath",
 					"type": "Expression"
-				}
+				},
+				"container": "data"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
